@@ -13,15 +13,18 @@ body, html {
     flex-direction: column;
 }
 /* first block */
-.ses1{
-    background-color: #1F2937;
+.ses1 {
     display:flex;
     flex-direction: column;
+    margin-bottom: 50px;
+    width: 70%;
+}
+
+.es1 {
+    background-color: #1F2937;
+    display: flex;
     width: 100%;
-    height: fit-content;
-    border-style: solid;
-    border: 15px;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .header {
@@ -35,9 +38,9 @@ body, html {
 
 .mid1 {
     display:flex;
-    justify-content: space-around;
-    flex-shrink: 0;
+    justify-content: space-between;
 }
+
 .mid2 {
     display: flex;
     flex-direction: column;
@@ -47,6 +50,30 @@ body, html {
     display: flex;
     max-width: 300px;
     
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    display: flex;
+    padding:10px;
+
+}
+
+.button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    width: fit-content;
+    font-weight: 900;
+    border-radius: 10px;
+    display: flex;
+    padding: 5px 15px 5px 15px;
+    justify-content: center;
+    align-items: center;
 }
 
 .herotxt {
@@ -70,28 +97,73 @@ body, html {
     align-items: center;
 }
 
+.text2 {
+    display: flex;
+    width: 150px;
+    color: #1F2937;
+    margin: 15px;
+}
+.es2 { 
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.ses2 {
+    width: 70%;
+    margin:50px;
+}
+
+.info {
+    display: flex;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 40px;
+}
+
 .img2 {
     display: flex;
     width: 150px;
+    border: solid 5px;
+    border-radius: 10px;
+    border-color: #3882f6;
 }
 
 .mid5 {
     display: flex;
     align-items: center;   
     color:#1f2937;
+    justify-content: space-around;
+    width: 100%;
 }
 
 /* third part */
 .ses3 {
     color:#1F2937;
     display: flex;
-    margin-top:50px;
     align-items: center;
+    margin:50px;
     background-color: #e5e7eb;
     font-size: 36px;
     font-style: italic;
+    width: 70%;
+    justify-content: center;
+    flex-direction: column;
 }
 
+.es3 {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+h5 {
+    display: flex;
+    align-self: flex-end;
+    width: 17rem;
+}
 
 /* fourth part */
 
