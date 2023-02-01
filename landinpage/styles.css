@@ -88,8 +88,36 @@ body, html {
     margin-top:50px;
     align-items: center;
     background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
 }
 
 
+/* fourth part */
 
+.ses4 {
+    color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    /* width: 600px; */
+}
 
+.bid1 {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button2 {
+    display: flex;
+    height: fit-content;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+}
