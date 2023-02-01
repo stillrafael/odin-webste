@@ -1,12 +1,26 @@
-body {
+
+
+
+body, html {
     display:flex;
     justify-content: center;
     font-family: roboto, sans-serif, "Helvetica";
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin:0px;
+    color:white;
 }
 
 .ses1{
     background-color: #1F2937;
-    
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    height: 900px;
+    border-style: solid;
+    border: 15px;
+    justify-content: space-between;
 }
 .header{
     display: flex;
@@ -14,4 +28,26 @@ body {
     justify-content: space-between;
     color:#e5e7eb;
     font-size: 18px;
+    
+}
+
+.mid1 {
+    display:flex;
+    justify-content: center;
+    flex-shrink: 0;
+}
+.mid2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.img {
+    display: flex;
+    max-width: 300px;
+    
+}
+
+.herotxt {
+    font-size: 48px;
+    color: #f9faf8;
 }
